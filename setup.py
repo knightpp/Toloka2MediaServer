@@ -12,7 +12,7 @@ setup(
     },
     entry_points={
         "console_scripts": [
-            "toloka2MediaServer=toloka2MediaServer.main:main",
+            "toloka2MediaServer=toloka2MediaServer:main",
         ],
     },
     install_requires=[
