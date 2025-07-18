@@ -40,7 +40,8 @@
 
       packages = forAllSystems (
         { pkgs }:
-        {
+        rec {
+          default = toloka2mediaServer;
           toloka2mediaServer = mkPkg pkgs;
         }
       );
